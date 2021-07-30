@@ -8,6 +8,7 @@ export const baseConfig: Config = {
   opacitiesUnit: 'float',
   figmaData: 'figma.json',
   figmagicFolder: '.figmagic',
+  graphicsDeepScan: false,
   outputFolderElements: 'elements',
   outputFolderGraphics: 'graphics',
   outputFolderTokens: 'tokens',

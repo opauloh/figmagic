@@ -6,6 +6,7 @@ export type Config = {
   opacitiesUnit: OpacitiesUnits;
   figmaData: string;
   figmagicFolder: string;
+  graphicsDeepScan: boolean;
   outputFolderElements: string;
   outputFolderGraphics: string;
   outputFolderTokens: string;
@@ -56,6 +57,7 @@ export type ConfigDTO = {
   opacitiesUnit?: OpacitiesUnits;
   figmaData?: string;
   figmagicFolder?: string;
+  graphicsDeepScan?: boolean;
   outputFolderElements?: string;
   outputFolderGraphics?: string;
   outputFolderTokens?: string;

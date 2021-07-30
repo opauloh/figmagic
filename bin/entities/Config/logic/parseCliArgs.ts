@@ -41,6 +41,8 @@ export function parseCliArgs(argsArray: string[]): Config {
     '-data': (val: string) => setConfigValue('figmaData', val),
     '--figmagicFolder': (val: string) => setConfigValue('figmagicFolder', val),
     '-base': (val: string) => setConfigValue('figmagicFolder', val),
+    '--graphicsDeepScan': () => setConfigValue('graphicsDeepScan', true),
+    '--gds': () => setConfigValue('graphicsDeepScan', true),
     '--outputFolderElements': (val: string) => setConfigValue('outputFolderElements', val),
     '-elements': (val: string) => setConfigValue('outputFolderElements', val),
     '--outputFolderGraphics': (val: string) => setConfigValue('outputFolderGraphics', val),

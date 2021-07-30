@@ -234,6 +234,7 @@ Below is a complete set of what you can configure, together with the defaults.
   "opacitiesUnit": "float",
   "figmaData": "figma.json",
   "figmagicFolder": ".figmagic",
+  "graphicsDeepScan": false,
   "outputFolderElements": "elements",
   "outputFolderGraphics": "graphics",
   "outputFolderTokens": "tokens",
@@ -488,6 +489,14 @@ Use this when you want to sync graphics in your "Graphics" page in Figma. Use th
 Default is `true`, and will then be taken from local `.env` file if not explicitly passed in through the CLI.
 
 Use this when you want to sync tokens in your "Design tokens" page in Figma. Use the RC configuration file to pass in options.
+
+#### Switch Graphics Deep Scanning
+
+`figmagic [--graphicsDeepScan | -gds]`
+
+Default is `false`, and will then be taken from local `.env` file if not explicitly passed in through the CLI.
+
+Use this when you want figmagic to scan all the graphics in your "Graphics" page in Figma instead of only the components that lay directly on the artboard. Use the RC configuration file to pass in options.
 
 #### Set path to graphics template
 
